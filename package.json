@@ -1,0 +1,19 @@
+{
+  "name": "typinggame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prize1987/TypingGame.git"
+  },
+  "author": "JEONGEUN KANG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prize1987/TypingGame/issues"
+  },
+  "homepage": "https://github.com/prize1987/TypingGame#readme"
+}
