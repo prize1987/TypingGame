@@ -1,8 +1,7 @@
 import '../style/index.css';
 
-const body = document.querySelector('body');
+import App from './App.js';
 
-const div = document.createElement('div');
-div.innerText = 'Hello World from js!1';
-
-body.appendChild(div);
+window.addEventListener('DOMContentLoaded', () => {
+  const app = new App(document.querySelector('div.App'));
+});

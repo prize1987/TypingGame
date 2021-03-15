@@ -1,4 +1,71 @@
 body {
-  color: white;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+div {
+  margin: 10px;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20vw;
+  font-size: 14px;
+}
+
+.word-display {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  font-size: 1.5rem;
+  width: 200px;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.start-btn-container,
+.score--restart-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.start-btn,
+.score--restart-btn {
+  font-size: 1.5rem;
+  width: 130px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  border-width: 0;
+}
+
+.score--header {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.score--score {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.score--avg-time {
+  display: flex;
+  justify-content: center;
 }
